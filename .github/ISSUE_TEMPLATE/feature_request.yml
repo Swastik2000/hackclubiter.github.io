@@ -1,6 +1,6 @@
 name: Feature Request
 description: Have a new idea or feature request
-title: "[FEATURE REQUEST] <description here>"
+title: [FEATURE REQUEST] <description here>
 labels: [feature-request]
 body:
   - type: textarea
