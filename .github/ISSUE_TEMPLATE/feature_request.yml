@@ -1,7 +1,7 @@
 name: Feature Request
 description: Have a new idea or feature request
 title: "[FEATURE REQUEST] <description here>"
-labels: [enhancement]
+labels: [feature-request]
 body:
   - type: textarea
     id: description
@@ -13,6 +13,18 @@ body:
     id: screenshots
     attributes:
       label: Add (multiple) screenshot links (if applicable)
+    validations:
+      required: false
+  - type: textarea
+    id: Describe the solution you'd like
+    attributes:
+      label: A clear and concise description of what you want to happen.
+    validations:
+      required: false
+  - type: textarea
+    id: Describe alternatives you've considered
+    attributes:
+      label: A clear and concise description of any alternative solutions or features you've considered.
     validations:
       required: false
   - type: textarea
