@@ -22,7 +22,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: Describe alternatives you've considered
+    id: Describe alternatives you have considered
     attributes:
       label: A clear and concise description of any alternative solutions or features you've considered.
     validations:
